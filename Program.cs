@@ -69,7 +69,7 @@ public class Program
     foreach (var item in newWorkers)
     {
         decimal Amt = item.salary.CalculateTotal();
-        Console.WriteLine($"Employee name: {item.Name}  monthly salay:   {item.salary.Amount}   annual salary:  {Amt}");
+        Console.WriteLine($"Employee name: {item.Name}  monthly salay:   {item.salary.Currency} {item.salary.Amount}   annual salary:  {item.salary.Currency} {Amt}");
         
        
     }   
